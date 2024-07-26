@@ -1,0 +1,82 @@
+.home-page {
+  margin-top: 5%;
+  position: relative;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background-img {
+  opacity: 0.3;
+}
+
+.paragraphe {
+  position: absolute;
+  top: 0%;
+  left: 42%;
+  font-weight: 700;
+  font-size: large;
+}
+
+.first-one {
+  position: absolute;
+  top: -3.5%;
+  left: 28%;
+  font-weight: 800;
+  font-size: 430%;
+}
+
+.second-one {
+  position: absolute;
+  top: 10%;
+  left: 34.5%;
+  font-weight: 800;
+  font-size: 430%;
+}
+
+.second-para {
+  position: absolute;
+  top: 42.5%;
+  left: 24%;
+  right: 24%;
+  font-size: large;
+  line-height: 140%;
+  word-spacing: 5px;
+}
+
+.first-btn {
+  position: absolute;
+  background-color: #446ccf;
+  color: white;
+  width: 150px;
+  height: 50px;
+  top: 78%;
+  right: 51%;
+  border: none;
+  font-size: medium;
+  transition-duration: 0.4s;
+}
+
+.second-btn {
+  position: absolute;
+  background-color: #989ca6;
+  color: white;
+  width: 150px;
+  height: 50px;
+  top: 78%;
+  right: 40%;
+  border: none;
+  font-size: medium;
+}
+
+.first-btn:hover {
+  opacity: 1;
+  background-color: #dbe0ec;
+  color: white;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.second-btn:hover {
+  cursor: pointer;
+}
